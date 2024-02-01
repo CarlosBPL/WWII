@@ -1,0 +1,73 @@
+.tytul a{
+    margin: 0.3rem;
+    background-color: white;
+    color: black;
+    display: flex;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.tytul a h1{
+  margin-left: 10px;
+}
+
+#glownaikona{
+  height: 5rem;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+
+
+.navbar{
+  display: flex;
+  background-color: black;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.navbar2{
+  display: flex;
+  
+}
+
+.navbar2 ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    font-size: 1.5rem;
+    line-height: 15px;
+    text-align: right;
+    margin-right: 2rem;
+  }
+
+  .navbar2 li {
+    margin-bottom: 10px; 
+    margin-left: 10px;
+  }
+
+  .navbar2 li a {
+    position: relative;
+    display: inline-block;
+      padding: 10px 20px; /* Odstęp wewnętrzny przycisków */
+      text-decoration: none;
+      color: black; 
+      background-color: silver; 
+      border-radius: 5px; 
+      transition: background-color 0.3s;
+      text-align: right;
+      
+      
+  }
+
+
+  .navbar2 li a:hover {
+    background-color: #2980b9;
+  }
+
+
+
